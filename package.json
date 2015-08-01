@@ -1,0 +1,33 @@
+{
+  "name": "xxtea-node",
+  "version": "1.0.1",
+  "homepage": "https://github.com/xxtea/xxtea-nodejs",
+  "description": "XXTEA is a fast and secure encryption algorithm. This is a XXTEA library for Node.js.",
+  "keywords": [
+    "xxtea",
+    "encrypt",
+    "decrypt"
+  ],
+  "author": {
+    "name" : "Ma Bingyao",
+    "email" : "mabingyao@gmail.com",
+    "url": "https://github.com/xxtea/"
+  },
+  "directories": {
+    "lib": "lib/"
+  },
+  "main": "lib/xxtea.js",
+  "devDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxtea/xxtea-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xxtea/xxtea-nodejs/issues",
+    "email": "mabingyao@gmail.com"
+  },
+  "license" : "MIT"
+}
