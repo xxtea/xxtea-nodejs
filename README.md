@@ -32,9 +32,9 @@ console.assert(str === decrypt_data);
 
 1.1.0 update
 
-Fixed Emoji encode & decode bug.
-Improved Long String encrypt and decrypt.
-Added encryptToString and decryptToString, for example:
+* Fixed Emoji encode & decode bug.
+* Improved Long String encrypt and decrypt.
+* Added encryptToString and decryptToString, for example:
 
 ```javascript
 var xxtea = require('xxtea-node');
