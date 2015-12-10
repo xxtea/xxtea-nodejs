@@ -27,3 +27,22 @@ console.log(new Buffer(encrypt_data).toString('base64'));
 var decrypt_data = xxtea.toString(xxtea.decrypt(encrypt_data, xxtea.toBytes(key)));
 console.assert(str === decrypt_data);
 ```
+
+## 更新日志
+
+1.1.0 更新
+
+修正了表情符编码解码的问题。
+改进了长字符串的加密解密。
+增加了 `encryptToString` 和 `decryptToString` 方法，例如：
+
+```javascript
+var xxtea = require('xxtea-node');
+
+var str = "Hello World! 你好，中国🇨🇳！";
+var key = "1234567890";
+var encrypt_data = xxtea.encryptToString(str, key);
+console.log(encrypt_data);
+var decrypt_data = xxtea.decryptToString(encrypt_data, key);
+console.assert(str === decrypt_data);
+```
