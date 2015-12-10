@@ -32,9 +32,9 @@ console.assert(str === decrypt_data);
 
 1.1.0 更新
 
-修正了表情符编码解码的问题。
-改进了长字符串的加密解密。
-增加了 `encryptToString` 和 `decryptToString` 方法，例如：
+* 修正了表情符编码解码的问题。
+* 改进了长字符串的加密解密。
+* 增加了 `encryptToString` 和 `decryptToString` 方法，例如：
 
 ```javascript
 var xxtea = require('xxtea-node');
